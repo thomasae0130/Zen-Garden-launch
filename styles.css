@@ -7,6 +7,10 @@
     --font-primary: 'Poppins', sans-serif;
     --font-secondary: 'Raleway', sans-serif;
 }
+* {
+    -webkit--webkit-font-smoothing: antialiased;
+    image-rendering: -webkit-optimize-contrast;
+}
 
 body, html {
     padding: 0;
