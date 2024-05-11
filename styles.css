@@ -74,6 +74,18 @@ section {
 section#products div:hover {
     transform: scale(1.1);
 }
+#contact {
+    display: grid;
+    grid-template: 300px 1fr 1fr / 1fr 2fr 1fr;
+}
+#contact div:nth-of-type(4) {
+    grid-area: 1 / 2 / 2 / 3;
+}
+.stuff p , .stuff h3  {
+ width: 50%;
+ margin: auto;
+ text-align: center;
+}
 h2, h3 {
     font-family: var(--font-secondary);
     text-shadow: -2px -2px 4px rgba(54, 53, 52, 0.3),
