@@ -76,7 +76,7 @@ section#products div:hover {
 }
 #contact {
     display: grid;
-    grid-template: auto;
+    grid-template: 300px auto / 2fr 1fr 1fr;
     justify-items: center;
 }
 #contact h3, #contact h2:nth-of-type(1) ,#contact p {
